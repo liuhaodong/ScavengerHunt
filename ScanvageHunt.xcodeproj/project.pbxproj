@@ -13,6 +13,9 @@
 		17FA7FA319D21F19004EA294 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17FA7FA219D21F19004EA294 /* Images.xcassets */; };
 		17FA7FA619D21F19004EA294 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17FA7FA419D21F19004EA294 /* LaunchScreen.xib */; };
 		17FA7FB219D21F19004EA294 /* ScanvageHuntTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FA7FB119D21F19004EA294 /* ScanvageHuntTests.swift */; };
+		17FA7FBC19D22509004EA294 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FA7FBB19D22509004EA294 /* ListViewController.swift */; };
+		17FA7FBE19D2479C004EA294 /* ScavengerHuntItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FA7FBD19D2479C004EA294 /* ScavengerHuntItem.swift */; };
+		17FA7FC019D25E9F004EA294 /* ItemsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FA7FBF19D25E9F004EA294 /* ItemsManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		17FA7FAB19D21F19004EA294 /* ScanvageHuntTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScanvageHuntTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17FA7FB019D21F19004EA294 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17FA7FB119D21F19004EA294 /* ScanvageHuntTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanvageHuntTests.swift; sourceTree = "<group>"; };
+		17FA7FBB19D22509004EA294 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		17FA7FBD19D2479C004EA294 /* ScavengerHuntItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScavengerHuntItem.swift; sourceTree = "<group>"; };
+		17FA7FBF19D25E9F004EA294 /* ItemsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,9 @@
 				17FA7F9B19D21F19004EA294 /* AppDelegate.swift */,
 				17FA7F9D19D21F19004EA294 /* ViewController.swift */,
 				17FA7F9F19D21F19004EA294 /* Main.storyboard */,
+				17FA7FBF19D25E9F004EA294 /* ItemsManager.swift */,
+				17FA7FBD19D2479C004EA294 /* ScavengerHuntItem.swift */,
+				17FA7FBB19D22509004EA294 /* ListViewController.swift */,
 				17FA7FA219D21F19004EA294 /* Images.xcassets */,
 				17FA7FA419D21F19004EA294 /* LaunchScreen.xib */,
 				17FA7F9919D21F19004EA294 /* Supporting Files */,
@@ -214,6 +223,9 @@
 			files = (
 				17FA7F9E19D21F19004EA294 /* ViewController.swift in Sources */,
 				17FA7F9C19D21F19004EA294 /* AppDelegate.swift in Sources */,
+				17FA7FBE19D2479C004EA294 /* ScavengerHuntItem.swift in Sources */,
+				17FA7FBC19D22509004EA294 /* ListViewController.swift in Sources */,
+				17FA7FC019D25E9F004EA294 /* ItemsManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
